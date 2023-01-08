@@ -1,11 +1,11 @@
 
-let blockSize = 25
-let rows = 20
-let cols = 20
+const blockSize = 25
+const rows = 20
+const cols = 20
 let board 
 let context
 
-let highScore = null    // this is the highest score ive ever gotten in the game
+
 
 let snakeXpos = 5
 let snakeYpos = 5       // there might be a bug with this where the head is resetted each time
